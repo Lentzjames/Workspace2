@@ -131,16 +131,22 @@ body{
     .instagram-wrapper{
         width: 90%;
     }
-    body{
-        color: white;
+    .download{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+    .instagram-image{
+        width: 40%;
+    }
+    .instagram-image img{
+        height: 40rem;
+    }
+
 }
 
 @media (max-width:650px){
-    body{
-        color: white;
-    }
-
+    
     .instagram-wrapper{
         width: 90%;
     }
@@ -152,5 +158,14 @@ body{
     }
     .group{
         border: 1px solid transparent;
+        background-color: transparent;
+    }
+    .get-app{
+        color: black;
+    }
+    .download{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
